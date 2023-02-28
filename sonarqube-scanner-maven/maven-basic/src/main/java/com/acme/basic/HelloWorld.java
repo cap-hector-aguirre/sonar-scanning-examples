@@ -9,5 +9,8 @@ public class HelloWorld {
   void notCovered() {
     System.out.println("This method is not covered by unit tests");
   }
-
+  
+  void notCoveredAgain(){
+    System.out.println("This is another method without unit tests");
+  }
 }
